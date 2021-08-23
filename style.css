@@ -1,0 +1,148 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: lightcyan;
+    scroll-behavior: smooth;
+}
+
+#h2 {
+    font-family: 'Style Script', cursive;
+    font-size: 50px;
+    color: #304FFE;
+}
+
+#title {
+    color: #283593;
+}
+
+#profile {
+    width: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: mediumpurple;
+
+}
+
+#home {
+    background: linear-gradient(#28f79a 0%, #2893f7 100%);
+    padding-top: 80px;
+    text-align: center;
+}
+
+#menu {
+
+    position: fixed;
+    background-color: dodgerblue;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    width:100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.links {
+    display: inline;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    color: white;
+
+}
+
+.links:hover {
+    background-color: chartreuse;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 80px;
+    margin: 8px auto;
+}
+
+#about {
+    background-color: dodgerblue;
+    padding: 20px;
+
+}
+
+.sameIMG {
+    width: 400px;
+    height: 250px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+.sameH {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+#myFavouritePlaces {
+    background-color: aquamarine;
+}
+
+#Inspiration {
+    background: linear-gradient(#03fcfc 0%, #ca61ff 100%)
+}
+
+#myWork {
+    background-color: #ca61ff;
+}
+
+#reports {
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.InsIMG {
+    width: 250px;
+    height: 300px;
+}
+
+.InsIMG:hover {
+    transform: scale(0.9);
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'WindSong', cursive;
+    color: darkcyan;
+    border-style: solid;
+    border-color: lightskyblue;
+    border-width: 5px;
+}
+
+#Inspiration img {
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 20%
+}
+
+#myWork img {
+    border-radius: 25px;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+.contact1 a {
+    color:white;
+    text-shadow:none;
+}
+#Contact {
+    background:linear-gradient(#ff2b2b 0%, #ff9c40 100%)
+}
